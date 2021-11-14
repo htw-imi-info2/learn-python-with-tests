@@ -43,6 +43,13 @@ run all tests with:
 
 To ensure that all your examples are correct.
 
+## Run in PyCharm
+
+To run all tests in PyCharm, the run configuration 
+needs to be modified to include all *.py files in 
+test discovery by adding `-p *.py` as additional parameter.
+See [Test Discovery](https://docs.python.org/3/library/unittest.html#unittest-test-discovery)
+
 # Unit Tests in Python
 
 https://docs.python.org/3/library/unittest.html
