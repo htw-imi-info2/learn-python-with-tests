@@ -7,14 +7,14 @@ This is a little example for learning Python using unit tests.
 
 As you study the language, add little examples as tests.
 
-This enables you to look up the syntax quickly.
+This enables you to look up the syntax quickly later.
 
 By keeping the tests running, you can be certain that the examples are correct.
 
 Tests are especially useful if you tryout behaviour of the language that is
 not immediately clear to you. Try out the behaviour and assert the results with
 unit tests assertions. This way, you can even look up the output/results without
-having to run the code again and probably needing to check the output.
+having to run the code again and frequently needing to check the output.
 
 ## Running the Tests
 
@@ -51,3 +51,28 @@ https://docs.python.org/3/library/unittest.html
 
 * [Python Documentation](https://docs.python.org/3/)
 * [Sedgewick, Wayne, Dondero: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
+
+# Things to explore
+
+## Control Structures
+* Conditional Statement (if/else)
+* Loops
+* functions and methods
+
+## Data Structures
+* Lists, Set, Map, Queue, Stack, (Heap)
+
+## Object Oriented Programming
+* class definition
+* instance creation
+* method lookup
+
+## What is the Type model?
+
+* static or dynamic?
+* strict or loose?
+
+## How to interact with the language / Structure of a Program
+
+* main method
+* interpreter
