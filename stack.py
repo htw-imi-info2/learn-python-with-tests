@@ -12,7 +12,7 @@ class TestUsingListAsStack(unittest.TestCase):
         self.assertEqual(3,stack.pop())
         self.assertEqual(9,stack.pop())
 
-    def test_better_push(self):
+    def test_append_cannot_be_aliased_with_push(self):
         stack = list(range(1,10))
         # seems only to work with own classes?
         with self.assertRaises(AttributeError): stack.push = stack.append

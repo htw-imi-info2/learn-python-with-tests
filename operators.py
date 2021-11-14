@@ -8,10 +8,11 @@ class TestOperator(unittest.TestCase):
     def test_bitwise_xor(self):
         self.assertEqual(10^6,12)
         # why?
-        # ^ is bitwise exclusive or (xor):
+        # ^ is bitwise exclusive or (xor),
+        # so if you have 10 and 6 in binary
         self.assertEqual( '0b110',bin(6))
         self.assertEqual('0b1010',bin(10))
-        # exclusive bitwise or:
+        # the bitwise exclusive or is:
         self.assertEqual('0b1100',bin(12))
 
 

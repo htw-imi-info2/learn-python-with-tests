@@ -12,7 +12,6 @@ def func(maybe_a_duck):
 
 class TestDuckTyping(unittest.TestCase):
 
-
     def test_ducks_quack(self):
         duck = Duck()
         self.assertEqual("let it quack: quaaack!",func(duck))
